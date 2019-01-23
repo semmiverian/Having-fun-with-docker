@@ -1,6 +1,6 @@
 ## Step by Step up and running
 
-> ** Build our image **
+- **Build our image**
 
 ```bash
 docker build -t ubuntu-nginx-express .
@@ -8,7 +8,7 @@ docker build -t ubuntu-nginx-express .
 ( dot means find Dockerfile file in the current directory)
 ```
 
-> **Build a container from our build image**
+- **Build a container from our build image**
 
 ```bash
 docker container run --rm -d -p 8081:80 -v $(pwd):/usr/local/application ubuntu-nginx-express
