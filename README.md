@@ -2,11 +2,11 @@
 
 Currently there are 3 branches here
 
-- base-custom-image
+- [Base Custom Image](https://github.com/semmiverian/Having-fun-with-docker/tree/base-custom-image)
   Branch for playing to create a simple custom image using ubuntu and nginx image
-- base-server-imager
+- [Base Server Image](https://github.com/semmiverian/Having-fun-with-docker/tree/base-server-image)
   The same custom image like in the branch `base-custom-image` but with additional node js and command to run `npm start` by default
-- docker-compose-server-client
+- [Docker Compose server and client](https://github.com/semmiverian/Having-fun-with-docker/tree/docker-compose-server-client)
   Branch to show how to use docker compose to build more than one container in one command.
   In this branch we weill cover
   - Server -> using express
