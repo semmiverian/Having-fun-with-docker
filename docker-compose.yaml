@@ -1,5 +1,5 @@
 version: '3.6'
-
+# Coba cek ga pakai links masih bisa atau engga
 services:
   nginx:
     image: 'nginx:latest'
