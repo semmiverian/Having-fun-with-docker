@@ -9,7 +9,7 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Edit <code>src/App.js</code> and save to reload. to do something cool with this is it realtime?
+            Edit <code>src/App.js</code> and save to reload. to do something cool with this is it realtime? OMG askdaskdjsa
           </p>
           <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
             Learn React
