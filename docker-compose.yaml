@@ -21,18 +21,21 @@ services:
       - '3001:3000'
     volumes:
       - './server:/usr/local/application'
+      - '/usr/local/application/node_modules'
   client:
     build:
       context: ./client
       dockerfile: Dockerfile
     volumes:
       - './client:/var/www/html'
+      - '/var/www/html/node_modules'
   client_dev:
     build:
       context: ./client
       dockerfile: Dockerfile
     volumes:
       - './client:/var/www/html'
+      - '/var/www/html/node_modules'
     ports:
       - '3002:3000'
     command: ['npm', 'run', 'start']
